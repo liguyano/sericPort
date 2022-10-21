@@ -40,7 +40,7 @@ int main() {
     {
         auto a=wzSerialPort.hex_recv();
         cout<<a<<endl;
-        cout<<dec2hex(a)<<endl;//F8 248 0011 0100
+        cout<<dec2hex(a)<<endl;//May return odd date when port not open
         //system("pause");
     }
 
